@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Directional Stimulus Prompting">
+  <meta property="og:title" content="Guiding Large Language Models via Directional Stimulus Prompting"/>
+  <meta property="og:description" content="Directional Stimulus Prompting"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Directional Stimulus Prompting">
+  <meta name="twitter:description" content="Guiding Large Language Models via Directional Stimulus Prompting">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="guiding, large languange models, directional stimulus prompting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Guiding Large Language Models via
+    Directional Stimulus Prompting
+    </title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Guiding Large Language Models via
+              Directional Stimulus Prompting
+              </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://leezekun.github.io/" target="_blank">Zekun Li</a><sup>1*</sup>,</span>
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/baolin-peng-6299266b/" target="_blank">Baolin Peng</a><sup>2</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://www.linkedin.com/in/pengcheng-he-42163729/" target="_blank">Pengcheng He</a><sup>2</sup>,</span>
+                    <span class="author-block">
+                      <a href="https://www.linkedin.com/in/michelgalley/" target="_blank">Michel Galley</a><sup>2</sup>,</span>
+                      <span class="author-block">
+                        <a href="https://www.linkedin.com/in/jianfeng-gao-2558165/" target="_blank">Jianfeng Gao</a><sup>2†</sup>,</span>
+                        <span class="author-block">
+                      <a href="https://www.linkedin.com/in/xifeng-yan-b866119/" target="_blank">Xifeng Yan</a><sup>1†</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">University of California, Santa Barbara<br>Microsoft</span><br>37th Conference on Neural Information Processing Systems (NeurIPS 2023)</span>
+                    <span class="eql-cntrb"><small><br>{zekunli, xyan}@cs.ucsb.edu</small></span>
+                    <span class="eql-cntrb"><small><br>{bapeng,penhe,mgalley,jfgao}@microsoft.com</small></span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Part of the work was done when Zekun Li was interning at Microsoft Research.</small></span>
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Co-advise on this work.</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2302.11520.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Leezekun/Directional-Stimulus-Prompting" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2302.11520" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Image carousel -->
+<section class="hero">
+  <div class="hero-body">
+      <div class="container is-max-desktop">
+          <div class="columns is-centered">
+              <div class="column is-four-fifths">
+                  <div class="item">
+                      <!-- Your image here -->
+                      <img src="static/images/example_v2.jpg" alt="Comparison of our Directional Stimulus Prompting and the standard prompting method using LLMs such as ChatGPT for the summarization task." />
+                      <h2 class="subtitle;columns is-centered">
+                          Figure 1: Comparison of our Directional Stimulus Prompting and the standard prompting method using LLMs such as ChatGPT for the summarization task. DSP utilizes directional stimulus/hints (highlighted in orange), which are keywords in this case, to provide instance-specific guidance to LLMs in generating summaries (highlighted in blue) that better align with the desired reference summary with higher ROUGE scores or other measures like human preferences.
+                      </h2>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- End image carousel -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce Directional Stimulus Prompting, a novel framework for guiding
+black-box large language models (LLMs) toward specific desired outputs. Instead
+of directly adjusting LLMs, our method employs a small tunable policy model (e.g.,
+T5) to generate an auxiliary directional stimulus prompt for each input instance.
+These directional stimulus prompts act as nuanced, instance-specific hints and clues
+to guide LLMs in generating desired outcomes, such as including specific keywords
+in the generated summary. Our approach sidesteps the challenges of direct LLM
+tuning by optimizing the policy model to explore directional stimulus prompts that
+align LLMs with desired behaviors. The policy model can be optimized through
+1) supervised fine-tuning using labeled data and 2) reinforcement learning from
+offline or online rewards based on the LLM’s output. We assess our method across
+summarization, dialogue response generation, and chain-of-thought reasoning tasks.
+Our experiments demonstrate that the framework consistently improves LLMs’
+(e.g., ChatGPT, Codex, InstructGPT) performance on these supervised tasks using
+minimal labeled data. Notably, using just 80 dialogues on the MultiWOZ dataset,
+our approach enhances ChatGPT’s performance by an impressive 41.4%, matching
+or surpassing some fully supervised start-of-the-art models. Additionally, the
+instance-specific chain-of-thought prompt generated by our approach improves
+InstructGPT’s reasoning accuracy compared to human-crafted or automatically
+generated prompts. The code and data are publicly available.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero">
+  <div class="hero-body">
+      <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered is-fifths-fifths">
+                <h2 style:"text-align: center;" class="title is-3">Approach</h2>
+                  <div class="item">
+                      <!-- Your image here -->
+                      <img src="static/images/overview_page-0001.jpg" alt="overview_page-0001.jpg" />
+                      <h2 class="subtitle;columns is-centered">
+                          Figure 2: Overview of our proposed framework DSP, where we learn a small tunable policy model
+                          to generate the directional stimulus (keywords in this case) that provide input-specific guidance for
+                          the LLM toward the desired target. The policy model can be trained with SFT and/or RL, where the
+                          reward is defined as the downstream task performance measure, such as the ROUGE score for the
+                          summarization task, or other alignment measures like human preferences.
+                      </h2>
+                  </div>
+              </div>
+          </div>
+          <div class="column is-fifths-fifths">
+            <p style="margin-left: 2em;margin-right: 2em;">We utilize a relatively small and tunable LM (e.g., T5), as the policy model to generate the directional
+              stimulus prompt for each input query. This approach enables us to sidestep the direct optimization
+              of black-box LLMs by optimizing the small tunable policy model instead. We train the policy
+              model through supervised fine-tuning (SFT) using a few collected labeled data. After supervised
+              fine-tuning, we further optimize the policy model to explore better directional stimulus prompts
+              with reinforcement learning (RL). During RL training, we aim to maximize the reward defined as
+              downstream performance measures or any other measures of the LLM’s output conditioned on the
+              stimulus generated by the policy model.<br /></p> 
+            </p>
+        </div>
+      </div>
+  </div>
+</section>
+<!--approach end-->
+
+
+<!-- experiment1 carousel -->
+<section class="hero">
+  <div class="hero-body">
+      <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered is-fifths-fifths">
+                <h2 style:"text-align: center;" class="title is-3">Experiments</h2><br />
+                  <div class="item">
+                      <h2 class="subtitle;columns is-centered">
+                        In this work, we focus on the summarization, dialogue response generation, and automatic prompt generation tasks.
+                        We mainly use pre-trained T5 or Flan-T5 to initialize the policy model and evaluate the OpenAI’s ChatGPT (gpt-3.5-turbo), 
+                        Codex (code-davinci-002), and InstructGPT (text-davinci-002).<br /><br/>
+                      </h2>
+                      <h2 class="subtitle;"><b>1. Summarization</b><br/><br/></h2>
+                      <!-- Your image here -->
+                      <img src="static/images/cnndm_exp_chatgpt2_page-0001.jpg" alt="cnndm_exp_chatgpt2_page-0001.jpg" />
+                      <h2 class="subtitle;columns is-centered">
+                        Figure 3: Performance comparison of ChatGPT with standard prompting and DSP trained with SFT
+                        and SFT+RL, using varying numbers of training samples from the CNN/Daily Mail dataset.
+                      </h2>
+                  </div>
+              </div>
+          </div>
+          <div class="column is-fifths-fifths">
+            <p style="margin-left: 2em;margin-right: 2em;"><br />We evaluate the performance of ChatGPT with standard prompting and our approach DSP
+              trained with SFT or SFT and then RL (SFT+RL) on varying sizes of training data and present the results in Figure 3. As can be seen, all 
+              the evaluation scores improve with our proposed DSP compared with standard prompting. Specifically, the supervised fine-tuned policy 
+              model generates the stimulus that effectively guides ChatGPT to generate summaries that closely align with the reference summaries, leading 
+              to improved benchmark performance. Furthermore, the additional fine-tuning of the policy model with RL results in further performance 
+              improvement, indicating the effectiveness of RL in exploring better directional stimulus that maximizes the reward. As the size of the 
+              training data increases, the performance improvement becomes more significant. Despite using a small collection of only 1,000 to 4,000 
+              samples to keep API usage costs low, our DSP approach still consistently enhances ChatGPT’s ROUGE, BLEU, and Meteor scores by 1-2 points, 
+              even though ChatGPT has already achieved considerable performance.</p>
+              <br/>
+            </p>
+        </div>
+        <div class="columns is-centered">
+          <div class="column has-text-centered is-fifths-fifths">
+                <div class="item">
+                    <!-- Your image here -->
+                    <img src="static/images/training_curve-1000.jpg" 
+                    width="400" 
+                    height="300" 
+                    alt="training_curve-1000.jpg" />
+                    <h2 class="subtitle;columns is-centered">
+                      Figure 4: Training curve on 1000 samples from the CNN/Daily Mail dataset.
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="column is-fifths-fifths">
+          <p style="margin-left: 2em;margin-right: 2em;"><br />However, due to the discrepancy between
+            the semantic-based metric BERTScore and the overlap-based metric ROUGE, which are used as the
+            reward, the improvement in BERTScore after RL training may be relatively less significant. Figure 4
+            presents the change of training rewards and ROUGE-1 score on the validation set during the training
+            process on 1,000 samples. We can see that the performance is closely related to the training rewards,
+            and the training is relatively stable using the NLPO algorithm.<br/><br/>
+               To gain a better understanding of generated summaries guided by keywords, we employed <b>GPT-4</b> to evaluate 
+            the summaries. <br/>
+            </p>
+          </p>
+        </div>
+        <div class="columns is-centered">
+          <div class="column has-text-centered is-fifths-fifths">
+                <div class="item">
+                    <!-- Your image here -->
+                    <img src="static/images/gpt4_eval_pie_chart.jpg" 
+                    width="400" 
+                    height="300" 
+                    alt="training_curve-1000.jpg" />
+                    <h2 class="subtitle;columns is-centered">
+                      Figure 5: GPT-4 evaluation on comparing the summaries generated with our approach DSP, 
+                      i.e., with the guidance of our generated keywords, and the original standard prompting, 
+                      i.e., without keyword guidance.
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="column is-fifths-fifths">
+          <p style="margin-left: 2em;margin-right: 2em;"><br />The results are shown in Figure 5. We found that GPT-4 can 
+            produce reasonable and detailed explanations of their assessment. From our test set of 500 samples: DSP-generated 
+            summaries were favored 255 times (51.0%), summaries generated with original standard prompting were favored 222 
+            times (44.4%), while a tie was observed in 23 cases (4.6%).
+            </p>
+          </p>
+        </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- experiment2 carousel -->
+<section class="hero">
+  <div class="hero-body">
+      <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered is-fifths-fifths">
+              <div class="item">
+                <h2 class="subtitle;"><b>2. Dialogue Response Generation</b><br/><br/></h2>
+                <!-- Your image here -->
+                <img src="static/images/table1.png" alt="table1.png" />
+                <h2 class="subtitle;columns is-centered">
+                  Table 1: Response generation performance of different methods on the MultiWOZ 2.0&2.1 datasets, 
+                  where Succ. and Comb. denote the Success and Combined Score metrics, respectively.
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="column is-fifths-fifths">
+            <p style="margin-left: 2em;margin-right: 2em;"><br /> Table 1 summarizes the overall performance comparison, 
+              from which we obtain the following observations: <br/><br/><b>(1)</b> Our approach DSP significantly improves the
+              success and inform rates of Codex and ChatGPT, indicating that they better understand the scenario
+              and generate appropriate responses that help users in completing their tasks. <br/><br/><b>(2)</b> There is no
+              improvement in the corpus-level BLEU score, possibly because the LLMs generate responses with
+              different speaking styles and vocabulary since they do not see oracle system responses. Nevertheless,
+              the high success and inform rates demonstrate the usefulness of our approach in delivering helpful and
+              reliable responses. <br/><br/><b>(3)</b> RL training encourages the policy model to explore more
+              model-preferred stimulus, while supervised fine-tuning may merely generate stimulus closely aligned
+              with the pseudo-labeled data, which is not necessarily optimal. <br/><br/><b>(4)</b> Our approach achieves notable
+              success with only 80 dialogues, surpassing several fully trained TOD models, particularly in terms
+              of Success and Inform rates.</p>
+              <br/>
+            </p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- experiment3 carousel -->
+<section class="hero">
+  <div class="hero-body">
+      <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered is-fifths-fifths">
+              <div class="item">
+                <h2 class="subtitle;"><b>3. Chain-of-Thought reasoning</b><br/><br/></h2>
+                <!-- Your image here -->
+                <img src="static/images/table2.jpg" alt="table2.jpg" />
+                <h2 class="subtitle;columns is-centered">
+                  Table 2: Zero-shot chain of thoughts performance of InstructGPT (text-davinci-002) with different prompts. 
+                  *Our approach trains a policy model to generate instance-specific prompt triggers, which are compared to 
+                  the task-specific prompts in [26, 79].
+
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="column is-fifths-fifths">
+            <p style="margin-left: 2em;margin-right: 2em;"><br /> As can be seen in Table 2, InstructGPT’s performance
+              varies significantly when using different task-specific prompts. Compared to the 14 task-specific
+              human-designed prompts, DSP enhances the performance with instance-specific prompts. It also
+              outperforms the prompt discovered by the APE approach. Solely relying on supervised fine-tuning
+              of the policy model with the dataset comprising the 14 human-designed prompts doesn’t lead to
+              its peak performance. After fine-tuning with RL, the policy model is encouraged to explore better
+              instance-specific trigger prompts, further improving performance.</p>
+              <br/>
+            </p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- conclusions -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Conclusions and Future Work</h2>
+        <div class="content has-text-justified">
+          <p>
+            In this paper, we introduce Directional Stimulus Prompting (DSP), a new prompting framework
+to provide black-box LLMs with fine-grained and instance-specific guidance toward the desired
+outputs. We use a tunable policy model to generate the directional stimulus to provide such guidance
+and convert the optimization of black-box LLMs to that of the policy model. Experimental results
+demonstrate the effectiveness of our approach. DSP not only enables better control and guidance
+for black-box LLMs, but also effectively utilizes labeled data. Furthermore, the generated stimulus
+provides valuable insights and interpretations of LLMs’ behaviors. In this work, we use heuristically
+selected or annotated pseudo-stimulus data for supervised fine-tuning of the policy model. For future
+work, we hope to explore the possibility of using a “machine language” between the policy model
+and the LLMs that might not be intuitively preferred by humans but can better convey guidance
+information, as well as other forms of directional stimulus beyond text.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End conclusions -->
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{li2023guiding,
+        title={Guiding Large Language Models via Directional Stimulus Prompting}, 
+        author={Zekun Li and Baolin Peng and Pengcheng He and Michel Galley and Jianfeng Gao and Xifeng Yan},
+        year={2023},
+        eprint={2302.11520},
+        archivePrefix={arXiv},
+        primaryClass={cs.CL}
+  }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
